@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Break Continue JS</title>
+</head>
+
+<body>
+
+	<script> 
+	"use strict";
+	var i = Math.floor((Math.random()*50)+1);
+
+	for (var a = 2; a != 1; a++ )
+	if (i % 2 == 0) {
+		i = Math.floor((Math.random()*50)+1);
+		continue;
+	} else{
+		console.log("Random odd number to skip is " + i);
+		break;
+	}
+
+	
+
+	for(var n = 1; n != i; n = n+2){
+		console.log("Here is an odd number: " + n);
+	}
+	for (var m = i + 2; m <=49; m = m+2){
+		console.log("Here is an odd number: " + m);
+	}
+	</script>
+
+</body>

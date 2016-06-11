@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>My First HTML Form</title>
+</head>
+
+<body>
+
+<div>
+<h2>User Login</h2>
+<form method="POST" action="http://requestb.in/12iad9c1">
+    <p>
+        <label for="username">Username</label>
+        <input id="username" name="username" type="text" placeholder="Username">
+
+    </p>
+    <p>
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" placeholder="Password">
+    </p>
+    <p>
+        <button type="submit" name="Login">
+        <label for="Login">LOGIN</label>
+    </p>
+</form>
+</div>
+
+<div>
+<h2>Compose an Email</h2>
+<form method="POST" action="http://requestb.in/12iad9c1">
+
+    <p>
+        <input type="text" id="to" name="to" value="" placeholder="To..."></text>
+        <input type="text" id="from" name="from" value="" placeholder="From..."></text>
+        <input type="text" id="subject" name="subject" value="" placeholder="Subject..."></text>
+    </p>
+
+    <p> <textarea id="email_body" name="email_body" rows="5" cols="64"></textarea> </p>
+
+    <input type="checkbox" id="copy_to_sent" name="copy_to_sent" checked>
+    <label for="copy_to_sent">Copy to Sent?</label>
+
+    <p><button type="submit" name="Send"></p>
+    <label for="Send">SEND</label>
+
+</form>
+
+</div>
+
+<div>
+    <h2>Multiple Choice Test</h2>
+<form method="POST" action="http://requestb.in/12iad9c1">
+    <p>What is the square root of 100?</p>
+    <label><input type="radio" name="q1" value= "0">
+        0
+    <label><input type="radio" name="q1" value= "10">
+        10
+
+    <p>What is the best kind of pizza?</p>
+    <label><input type="radio" name="q2" value= "pepperoni and bacon">
+        Pepperoni and Bacon
+    <label><input type="radio" name="q2" value= "supreme">
+        Supreme
+
+    <p>What are your favorite coding langauges?</p>
+    <label><input type="checkbox" id="q31" name="q3[]" value="linux">Linux</label>
+    <label><input type="checkbox" id="q32" name="q3[]" value="apache">Apache</label>
+    <label><input type="checkbox" id="q33" name="q3[]" value="mysql">mySQL</label>
+    <label><input type="checkbox" id="q34" name="q3[]" value="php">PHP</label>
+
+    <p>What toppings do you like on your pizza?</p>
+    <select id="pizzaToppings" name="pizzaToppings[]" multiple>
+        <option value="pepperoni">Pepperoni</option>
+        <option value="bacon">Bacon</option>
+        <option value="bacon">Bacon</option>
+        <option value="bacon">Bacon</option>
+    </select>
+
+
+    <p><button type="submit" name="Submit"></p>
+    <label for="Submit">SUBMIT</label>
+
+</form>
+</div>
+
+<div>
+    <h2>Select Testing</h2>
+<form method="POST" action="http://requestb.in/12iad9c1">
+    <p>Do you like pizza?</p>
+    <select id="pizza" name="pizza">
+        <option value="1">Yes</option>
+        <option selected value="0">No</option>
+    </select>
+
+    <p><button type="submit" name="Submit"></p>
+    <label for="Submit">SUBMIT</label>
+
+</form>
+</div>
+</body>

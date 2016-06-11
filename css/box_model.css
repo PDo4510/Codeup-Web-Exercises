@@ -1,0 +1,39 @@
+
+#red{
+	background-color: #FF0000;
+	margin: 0px 0px 10px 0px;
+}
+
+#orange{
+	background-color: #FF9900;
+	margin: 0px 0px 10px 30px;
+}
+
+#yellow{
+	background-color: #FFFF00;
+	margin: 0px 0px 10px 60px;
+}
+
+#green{
+	background-color: #00FF00;
+	margin: 0px 0px 10px 90px;
+}
+
+#blue{
+	background-color: #0000FF;
+	margin: 0px 0px 10px 120px;
+}
+
+#purple{
+	background-color: #CC00FF;
+	margin : 0px 0px 10px 150px;
+}
+
+div{
+	width: 150px;
+	height: 50px;
+	padding: 11px;
+	border: 1px solid black;
+	color: #FFFFFF;
+	font-weight: bold;
+}
